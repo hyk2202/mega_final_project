@@ -1,2 +1,3 @@
 .SynologyWorkingDirectory/
-desktop.ini
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints
