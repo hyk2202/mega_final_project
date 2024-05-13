@@ -1,0 +1,11 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="작업프로세스_벌목작업<1" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="leaf=-0.00522473641" ]
+
+    2 [ label="leaf=-0.000716209121" ]
+}
