@@ -1,17 +1,11 @@
 digraph {
     graph [ rankdir=TB ]
 
-    0 [ label="작업프로세스_전기작업<1" ]
+    0 [ label="사고객체_중분류_전주, 전선<1" ]
     0 -> 1 [label="yes" color="#FF0000"]
     0 -> 2 [label="no, missing" color="#0000FF"]
 
-    1 [ label="작업프로세스_벌목작업<1" ]
-    1 -> 3 [label="yes" color="#FF0000"]
-    1 -> 4 [label="no, missing" color="#0000FF"]
+    1 [ label="leaf=-0.0523013249" ]
 
-    3 [ label="leaf=-0.00521611329" ]
-
-    4 [ label="leaf=-0.000703399826" ]
-
-    2 [ label="leaf=-0" ]
+    2 [ label="leaf=0.0539358556" ]
 }
