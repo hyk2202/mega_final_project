@@ -5,7 +5,7 @@ digraph {
     0 -> 1 [label="yes" color="#FF0000"]
     0 -> 2 [label="no, missing" color="#0000FF"]
 
-    1 [ label="leaf=-0.0523013249" ]
+    1 [ label="leaf=-0.0535287261" ]
 
-    2 [ label="leaf=0.0539358556" ]
+    2 [ label="leaf=0.0880126208" ]
 }
